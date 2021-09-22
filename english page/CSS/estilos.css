@@ -372,6 +372,7 @@ width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
 }
 
@@ -391,16 +392,21 @@ width: 100%;
 .footer ul li a img
 {
     filter: invert(1);
-    max-width: 20px;
+    max-width: 25px;
     opacity: 0.25;
+    
 
+}
+.footer p
+{
+    color: white;
 }
 .footer img:hover
 {
     opacity: 1;
 }
 
-@media (max-with:991) 
+@media (max-width: 991px) 
 {
     .banner
     {
