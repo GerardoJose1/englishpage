@@ -128,8 +128,8 @@
 
 .about .imgBx img
 {
-    width:675px ;
-    height:500px ;
+    width:674px ;
+    height:650px ;
 }
 
 .about .imgBx img{
@@ -191,34 +191,6 @@
     letter-spacing: 1px;
 }
 
-.technology
-{
-    background: #3f8ffc;
-    width: 100%;
-    padding: 100px;
-    padding-top: 300px;
-    margin-top: -300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.technology .contentBx
-{
-    max-width: 800px;
-
-}
-
-.technology .imgBx
-{
-    max-width: 250px;
-}
-
-.technology .imgBx img
-{
-    max-width: 100%;
-}
-
 
 
 .client
@@ -266,7 +238,7 @@
 {
     position: relative;
     padding:100px ;
-    background: #12222d;
+    background: #162c3b;
     text-align: center;
 
 }
@@ -304,7 +276,7 @@
     width: 100%;
     text-align: end;
     font-weight: 500 ;
-    color: #3f8ffc;
+    color: #162c3b;
 }
 
 .contact
@@ -381,6 +353,7 @@
 {
 text-align: center;
 position: relative;
+color: white;
 top: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
@@ -389,12 +362,12 @@ width: 100%;
 
 .Buy
 {
-    background: #3475ca;
+    background: #12222d;
     padding: 30px;
 }
 .footer
 {
-    background: #162c3b;
+    background: #040404;
     padding: 20px 100px ;
     display: flex;
     justify-content: space-between;
