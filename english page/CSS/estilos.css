@@ -17,6 +17,24 @@
     align-items: center;
 }
 
+.banner img{
+    opacity: 70%;
+    transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    
+    
+
+}
+.banner img:hover{
+    opacity: 100%;
+    transform: scale(1.050);
+    -webkit-transform: scale(1.050);
+    -moz-transform: scale(1.050);
+    -o-transform: scale(1.050);
+}
+
 
 
 .banner .content{
@@ -108,6 +126,30 @@
     background-position: center;
 }
 
+.about .imgBx img
+{
+    width:675px ;
+    height:500px ;
+}
+
+.about .imgBx img{
+    opacity: 80%;
+    transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    
+    
+
+}
+.about .imgBx img:hover{
+    opacity: 100%;
+    transform: scale(1.050);
+    -webkit-transform: scale(1.050);
+    -moz-transform: scale(1.050);
+    -o-transform: scale(1.050);
+}
+
 .services
 {
     background: #12222d;
@@ -195,18 +237,30 @@
     margin-top: 48px;
 }
 
-.client .imgBx img
+.client img
 {
-    max-width: 200px;
-    margin: 20px;
-    opacity: 0.25;
-    cursor: pointer;
+    width: 500px;
+    height: 500px;
 }
 
-.client .imgBx img:hover
-{
-    opacity: 1;
+.client img{
+    opacity: 70%;
+    transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    
+    
+
 }
+.client img:hover{
+    opacity: 100%;
+    transform: scale(1.050);
+    -webkit-transform: scale(1.050);
+    -moz-transform: scale(1.050);
+    -o-transform: scale(1.050);
+}
+
 
 .testimonials
 {
@@ -406,106 +460,67 @@ width: 100%;
     opacity: 1;
 }
 
-@media (max-width: 991px) 
+
+@media screen and (max-width: 576px) {
+    body{
+        width: unset;
+    }
+    .banner{
+        margin-right: 1000px;
+        margin-bottom: 150px;
+    }
+    .about{
+        width: 700px;
+    }
+    .equipo_{
+        padding: 10px;
+    }
+    .ajustes{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 390px)
 {
-    .banner
-    {
-        padding: 50px;
+    body{
+        width: unset;
     }
-    .banner header
-    {
-        padding: 20px  50px;
-    } 
-    .banner .content h2
-    {
-        font-size: 36px;
-    }   
-    .banner .content p
-    {
-        color: #fff;
-        font-size: 18px;
+    .logo{
+        width: 353px;
+    }
+    .ajustes{
+      flex-direction: column;
+      align-items: center;
+    }
+}
+  
+@media screen and (max-width: 768px)
+{
+    .logo{
+        width: 700px;
+    }
+    .ajustes{
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-group{
+      display: flex;
+      flex-direction: column;
+  }
+ 
+    
+  }
+  @media screen and (min-width: 1280px) {
 
+    .logo{
+        width: 1120px;
     }
-    .about
-    {
-        flex-direction: column;
-    }
-    .about .contentBx
-    .about .imgBx
-    {
-        width: 100%;
-        padding: 50px;
-        min-height: 400px;
-        text-align: center;
+  }
 
-    }
-    .services
-    {
-        padding: 50px;
+  @media screen and (min-width: 1600px) {
 
+    .logo{
+        width: 1300px;
     }
-
-    .services .container
-    {
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    .services .container .serviceBx
-    {
-        margin: 20px;
-        width: 300px;
-        height: 350px;
-
-    }
-    .technology
-    {
-        padding: 50px;
-        padding-top: 300px;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .technology .imgBx
-    {
-        margin-top: 40px ;
-        max-width: 250px;
-        
-    }
-    .client
-    {
-        padding: 50px;
-    }
-    .client .imgBx
-    {
-        justify-content: center;
-    }
-    .testimonials
-    {
-        padding: 50px;
-    }
-     .testimonials .contentBx
-    {
-        padding: 60px 40px;
-        max-width: 550px;
-        margin-bottom: 40px;
-    }
-    .testimonials .contentBx:last-child
-    {
-        margin-bottom: 0px;
-    }
-    .contact
-    {
-        padding: 50px ;
-    }
-    .footer{
-        padding: 20px 50px;
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-    .footer ul
-    {
-        margin-bottom: 20px;
-
-    }
-
 }
